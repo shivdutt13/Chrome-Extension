@@ -1,0 +1,12 @@
+{
+ "manifest_version": 2,
+ "name": "Shiv BM Space Extension",
+ "description": "Shiv BM Space Extension being tested",
+ "version": "2",
+ "author": "Your name", "browser_action": {
+   "default_icon": "pictures/tab-icon.png",
+   "default_title": "Have a good day"
+ }, "chrome_url_overrides" : {
+  "newtab": "newtab.html"
+ }, "permissions": ["activeTab"]
+}
